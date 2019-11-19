@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	font-family: 'Roboto';
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body {
+	background-color: #272C38;
+	color: white;
+}
+
+.header {
+	height: 70%;
+	left: 20%;
+	right: 20%;
+	padding: 15px;
+	text-align: center;
+	background-image: url('../images/bg2.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #3DB4F2;
+}
+
+.content {
+	position: static;
+	margin: 0 10%;
+	list-style-type: none;
+}
+
+.images {
+	width: 60%;
+}
+
+.left, .right, .badge {
+	display: inline-block;
+	position: relative;
+	width: 39%;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+}
+
+.right {
+	width: 19%;
+	padding-top: 5%;
+}
+
+.badge_cont {
+	height: 13%;
+	width: 405px; 
+	margin: 0 auto;
+}
+
+.badge {
+	width: 59%;
+	padding: 0;
+}
+
+#apple {
+	margin: 3%;
+	width: 49%;
+}
+
+.title {
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	text-shadow: black 0 0 10px;
+}
+
+.text {
+	font-size: 20px;
+	text-shadow: #3DB4F2 0 0 10px;
+}
+
+.logo {
+	width: 20%;
+	vertical-align: middle;
+}
+
+.images {
+	width: 636px;
+}
+
+.displays {
+	display: flex;
+	margin: 20px 0 60px 0;
+	text-align: center;	
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.description {
+	margin: 0 20px;
+	font-size: 24px;
+	color: rgb(163, 185, 204);
+}
+
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: #1F232D;
+	height: 60px;
+	border-top: 5px solid #3DB4F2;
+	text-align: center;
+
+}
+
+.footerContent {
+	margin: 10px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: rgb(163, 185, 204);
+}
+
+@media screen and (max-width: 512px) {
+	.content {
+		margin: 0;
+	}
+
+	.left, .right {
+		width: 80%;
+		padding: 5% 0;
+	}
+
+	.badge_cont {
+		margin: 0;
+		width: 100%;
+	}
+
+	.badge {
+		margin: 0;
+		width: 80%;
+	}
+
+	#apple {
+		margin: 0;
+		width: 70%;
+	}
+
+	.logo {
+		width: 60%;
+	}
+
+	.displays {
+		display: block;
+	}
+
+	.description {
+		margin: 8px;
+		font-size 16px;
+	}
+}
